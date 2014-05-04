@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertYearsButton:(UIButton *)sender {
+    int numberOfYears = [self.numberOfYearsTextField.text integerValue];
+    int numberOfDogYears = numberOfYears * 7;
+    self.dogYearsLabel.text = [NSString stringWithFormat:@"%i",numberOfDogYears];
+    [self.numberOfYearsTextField resignFirstResponder];
+}
 @end

@@ -21,6 +21,7 @@
 		D2433BC119167FCC0045C8D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2433BA319167FCC0045C8D5 /* UIKit.framework */; };
 		D2433BC919167FCC0045C8D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2433BC719167FCC0045C8D5 /* InfoPlist.strings */; };
 		D2433BCB19167FCC0045C8D5 /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2433BCA19167FCC0045C8D5 /* Age_of_LaikaTests.m */; };
+		D2433BD5191681160045C8D5 /* laika-space-dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2433BD4191681160045C8D5 /* laika-space-dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2433BC619167FCC0045C8D5 /* Age of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		D2433BC819167FCC0045C8D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2433BCA19167FCC0045C8D5 /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+		D2433BD4191681160045C8D5 /* laika-space-dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "laika-space-dog.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		D2433BA619167FCC0045C8D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2433BD4191681160045C8D5 /* laika-space-dog.jpg */,
 				D2433BA719167FCC0045C8D5 /* Age of Laika-Info.plist */,
 				D2433BA819167FCC0045C8D5 /* InfoPlist.strings */,
 				D2433BAB19167FCC0045C8D5 /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2433BD5191681160045C8D5 /* laika-space-dog.jpg in Resources */,
 				D2433BB819167FCC0045C8D5 /* Images.xcassets in Resources */,
 				D2433BAA19167FCC0045C8D5 /* InfoPlist.strings in Resources */,
 				D2433BB319167FCC0045C8D5 /* Main.storyboard in Resources */,

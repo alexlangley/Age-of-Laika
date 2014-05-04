@@ -10,4 +10,10 @@
 
 @interface TBViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *numberOfYearsTextField;
+
+- (IBAction)convertYearsButton:(UIButton *)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *dogYearsLabel;
+
 @end
