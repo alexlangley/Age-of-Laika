@@ -32,4 +32,19 @@
     self.dogYearsLabel.text = [NSString stringWithFormat:@"%i",numberOfDogYears];
     [self.numberOfYearsTextField resignFirstResponder];
 }
+
+- (IBAction)convertToRealDogYearsButton:(UIButton *)sender
+{
+    int numberOfYears = [self.numberOfYearsTextField.text integerValue];
+    int dogYears;
+    
+    if (numberOfYears > 2) {
+        dogYears = (10.5 * 2) + ((numberOfYears - 2) * 4);
+    } else {
+        dogYears = 10.5 * numberOfYears;
+    }
+
+    self.realYearsLabel.text = [NSString stringWithFormat:@"%i",dogYears];
+    [self.numberOfYearsTextField resignFirstResponder];
+}
 @end
